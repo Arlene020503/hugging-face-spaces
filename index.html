@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leçon Hugging Face Spaces</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#presentation">Présentation</a></li>
+            <li><a href="#definition">Définition</a></li>
+            <li><a href="#architecture">Architecture</a></li>
+            <li><a href="#technologies">Technologies</a></li>
+            <li><a href="#fonctionnement">Fonctionnement</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Leçon sur Hugging Face Spaces</h1>
+
+        <section id="presentation">
+            <h2>Présentation générale</h2>
+            <p>
+                Hugging Face est une plateforme spécialisée dans l’intelligence artificielle qui permet de partager des modèles d’IA, publier des datasets, collaborer sur des projets et déployer des applications intelligentes. Elle fonctionne avec un système de versionnement similaire à GitHub. Une partie importante de cette plateforme est appelée Spaces.
+            </p>
+        </section>
+
+        <section id="definition">
+            <h2>Qu’est-ce que Hugging Face Spaces</h2>
+            <p>
+                Hugging Face Spaces permet de créer, héberger et partager des applications web basées sur l’intelligence artificielle. Un Space est donc une application web contenant un modèle d’IA et accessible via un lien internet. On peut y trouver des chatbots, des générateurs d’images, des traducteurs automatiques, des résumés de texte ou encore des outils d’analyse de sentiments.
+            </p>
+        </section>
+
+        <section id="architecture">
+            <h2>Architecture d’un projet Spaces</h2>
+            <p>
+                Un projet Spaces contient généralement plusieurs fichiers : <code>app.py</code> qui est le programme principal, <code>requirements.txt</code> qui liste toutes les bibliothèques nécessaires comme Gradio, Transformers ou PyTorch, <code>README.md</code> pour documenter le projet et un dossier <code>model</code> qui contient le modèle IA ou le relie à un modèle en ligne.
+            </p>
+        </section>
+
+        <section id="technologies">
+            <h2>Technologies utilisées</h2>
+            <p>
+                Les technologies utilisées permettent de créer l’application et de faire fonctionner l’intelligence artificielle. Gradio est le framework qui crée l’interface utilisateur. Il permet de créer des champs de saisie, d’afficher les résultats et de connecter l’utilisateur au modèle IA, sans coder en HTML ou JavaScript. Streamlit est un autre framework utilisé pour créer des applications interactives orientées data science, par exemple des dashboards ou des visualisations de données. Docker permet de déployer une application complète dans un environnement personnalisé, utile lorsque l’application nécessite plusieurs services, langages ou configurations serveur. Transformers est la bibliothèque qui permet de charger et d’utiliser facilement des modèles pré-entraînés, et PyTorch est le framework qui réalise les calculs nécessaires aux modèles IA.
+            </p>
+        </section>
+
+        <section id="fonctionnement">
+            <h2>Fonctionnement combiné</h2>
+            <p>
+                Dans une application Spaces, Gradio récupère les entrées de l’utilisateur, Transformers envoie ces données au modèle et PyTorch réalise les calculs. Le résultat est ensuite affiché dans l’interface Gradio.
+            </p>
+        </section>
+
+    </div>
+
+    <footer>
+         Leçon Hugging Face Spaces - Arlène
+    </footer>
+
+</body>
+</html>
